@@ -3,3 +3,14 @@ languageCode = 'en-us'
 title = 'Hikit'
 theme = 'smigle'
 
+[menu]
+# [[menu.main]]
+# identifier = 'home'
+# name = 'Home'
+# url = '/'
+
+[params]
+abbrDateFmt = 'Jan 2'
+author = 'Hikit'
+dataFmt = '2006-01-02'
+subtitle = 'hikit.io'
