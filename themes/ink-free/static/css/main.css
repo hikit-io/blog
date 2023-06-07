@@ -16,7 +16,11 @@ a:hover {
     border-bottom: 2px solid #3700ff;
 }
 
-html, button, input, select, textarea {
+html,
+button,
+input,
+select,
+textarea {
     color: #333;
 }
 
@@ -127,7 +131,12 @@ blockquote code {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #333;
     font-weight: 500;
     line-height: 1.3em;
@@ -250,19 +259,35 @@ ul {
     line-height: 0.2em;
 }
 
-.header-title{
-    display: flex; flex-direction: row;justify-content: space-between;align-items: center;
+.header-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-title a:hover{
-    border-bottom: 0;
-} 
+.badge:hover {
+    border-bottom: 1px;
+    border-color: #32d296;
+    text-decoration: none;
+}
 
-.text-badge{
+.badge {
+    display: inline-block;
+    border-color: #32d296;
+    border-style: solid;
+    border-radius: 0.3em;
+    border-width: 1px;
+    text-align: center;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    line-height: 1em;
+}
+
+.text-badge {
     color: #32d296;
     font-weight: bold;
     font-size: small;
-    margin-left: 0.5em;
 }
 
 .site-title a {
@@ -526,7 +551,7 @@ figcaption {
     color: gray;
 }
 
-code:not(pre *)  {
+code:not(pre *) {
     font-family: monospace;
     font-size: 1em;
     background-color: rgb(239, 241, 243);

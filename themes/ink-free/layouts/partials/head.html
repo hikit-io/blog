@@ -9,15 +9,15 @@
 	<div class="header-title">
 		<h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
 		<div>
-			<a href='https://http3check.net/?host={{ strings.TrimSuffix "/" .Site.BaseURL }}' title="本站支持HTTP/3访问" target='_blank'
+			<a class="badge" href='https://http3check.net/?host={{ strings.TrimSuffix "/" .Site.BaseURL }}' title="本站支持HTTP/3访问" target='_blank'
 				style="text-decoration: none;">
 				<span class="text-badge">HTTP/3</span>
 			</a>
-			<a href="https://ipw.cn/ipv6webcheck/?site={{ .Site.BaseURL }}" title="本站支持IPv6访问" target='_blank'
+			<a class="badge" href="https://ipw.cn/ipv6webcheck/?site={{ .Site.BaseURL }}" title="本站支持IPv6访问" target='_blank'
 				style="text-decoration: none;">
 				<span class="text-badge">IPv6</span>
 			</a>
-			<a href='https://ipw.cn/ssl/?site={{ strings.TrimSuffix "/" .Site.BaseURL }}' title="本站支持SSL安全访问" target='_blank'>
+			<a class="badge" href='https://ipw.cn/ssl/?site={{ strings.TrimSuffix "/" .Site.BaseURL }}' title="本站支持SSL安全访问" target='_blank'>
 				<span class="text-badge">SSL</span>
 			</a>
 		</div>

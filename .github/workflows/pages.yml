@@ -48,7 +48,6 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
             && mv public blog
       - name: Copy file via ssh password
         uses: appleboy/scp-action@v0.1.4
