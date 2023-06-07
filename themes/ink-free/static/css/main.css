@@ -7,13 +7,13 @@ body {
 }
 
 a {
-    color: #3700ff;
+    color: #004cff;
     text-decoration: none;
     word-break: break-word;
 }
 
 a:hover {
-    border-bottom: 2px solid #3700ff;
+    border-bottom: 2px solid #004cff;
 }
 
 html,
@@ -25,13 +25,13 @@ textarea {
 }
 
 ::-moz-selection {
-    background: #3700ff;
+    background: #004cff;
     text-shadow: none;
     color: #fff;
 }
 
 ::selection {
-    background: #3700ff;
+    background: #004cff;
     text-shadow: none;
     color: #fff;
 }
@@ -113,7 +113,7 @@ blockquote {
     font-size: 1.1rem;
     font-family: Georgia, bitstream charter, serif;
     border-left: 3px solid;
-    border-color: #3700ff;
+    border-color: #004cff;
     padding-left: 15px;
 }
 
@@ -139,28 +139,33 @@ h5,
 h6 {
     color: #333;
     font-weight: 500;
-    line-height: 1.3em;
-    margin: 30px 0 20px 0;
+    line-height: 1em;
+    /* margin: 30px 0 20px 0; */
 }
 
 h1 {
-    font-size: 2.75rem;
-}
-
-h2 {
+    /* font-size: 2.75rem; */
     font-size: 2rem;
 }
 
-h3 {
+h2 {
+    /* font-size: 2rem; */
     font-size: 1.6rem;
 }
 
-h4 {
+h3 {
     font-size: 1.2rem;
+    /* font-size: 1.6rem; */
+}
+
+h4 {
+    /* font-size: 1.2rem; */
+    font-size: 1rem;
 }
 
 h5 {
-    font-size: 1rem;
+    font-size: .9rem;
+    /* font-size: 1rem; */
 }
 
 h6 {
@@ -234,11 +239,11 @@ ul {
 
 .container {
     max-width: 800px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .header {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding-bottom: 20px;
 }
 
@@ -267,9 +272,8 @@ ul {
 }
 
 .badge:hover {
-    border-bottom: 1px;
-    border-color: #32d296;
-    text-decoration: none;
+    border-bottom: 1px solid #32d296;
+    /* text-decoration: none; */
 }
 
 .badge {
@@ -326,7 +330,7 @@ ul {
 }
 
 .header nav.social a:hover {
-    color: #3700ff;
+    color: #004cff;
 }
 
 .header .site-description nav {
@@ -361,7 +365,7 @@ ul {
 }
 
 .recent-posts .posts .post {
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 
 .post-header {
@@ -377,7 +381,7 @@ ul {
 .post-header .meta .date .day {
     font-weight: 700;
     line-height: 0.45em;
-    font-size: 3em;
+    font-size: 2.5em;
     display: block;
     margin-bottom: 20px;
 }
@@ -400,7 +404,7 @@ ul {
 }
 
 .post .draft-label {
-    color: #3700ff;
+    color: #004cff;
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -410,10 +414,10 @@ ul {
 
 .post .tags a {
     display: inline-block;
-    border: 1px solid #3700ff;
+    border: 1px solid #004cff;
     border-radius: 3px;
     padding: 0px 6px;
-    color: #3700ff;
+    color: #004cff;
     line-height: 20px;
     font-size: 0.85em;
     text-decoration: none;
@@ -439,7 +443,7 @@ ul {
 }
 
 .footer a:hover {
-    color: #3700ff;
+    color: #004cff;
 }
 
 .tag-cloud {

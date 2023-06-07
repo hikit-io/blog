@@ -6,12 +6,13 @@
 		{{ partial "head.html" . }}
 
 		<div class="post">
-			<div class="post-header">
+			<div class="post-header" style="margin-bottom: 0;">
 				{{ if ne .Date.Year 1 }}
 					<div class="meta">
 						<div class="date">
 							<span class="day">{{ dateFormat "02" .Date }}</span>
 							<span class="rest">{{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}</span>
+							<h6 style="margin: 0;">{{ .Params.Author }}</h4>
 						</div>
 					</div>
 				{{ end }}
