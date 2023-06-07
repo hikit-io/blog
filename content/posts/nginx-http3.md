@@ -1,11 +1,11 @@
 ---
 author: Nekilc
 title: Nginx enable HTTP/3 
-date: 2023-06-01
+date: 2023-5-25
 tags: [http,http3,backend,nginx]
 ---
 
-Nginx released version 1.25 on May 3, 2023 to provide HTTP/3 experimental support.
+Nginx released version 1.25.0 on May 23, 2023 to provide HTTP/3 experimental support.
 
 ## Example
 
@@ -13,7 +13,7 @@ Nginx released version 1.25 on May 3, 2023 to provide HTTP/3 experimental suppor
 http{
     include       mime.types;
     default_type  application/octet-stream;
-    
+
     server{
         server_name api.hikit.io;
 
