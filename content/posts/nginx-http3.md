@@ -7,6 +7,33 @@ tags: [http,http3,backend,nginx]
 
 Nginx released version 1.25 on May 3, 2023 to provide HTTP/3 experimental support.
 
+## Example
+
+```conf
+http{
+    include       mime.types;
+    default_type  application/octet-stream;
+    
+    server{
+        server_name api.hikit.io;
+
+        listen [::]:443 quic reuseport ipv6only=off;
+        listen [::]:443 ssl http2 ipv6only=off;
+
+        http3 on;
+        quic_gso on;
+        quic_retry on;
+
+        ssl_early_data on;
+        ssl_protocols TLSv1.3;
+        ssl_certificate  /app/api.hikit.io.pem;
+        ssl_certificate_key /app/api.hikit.io.key;
+
+        add_header alt-svc 'h3=":443"; ma=86400';
+        add_header QUIC-Status $http3;
+    }
+}
+```
 
 ## Directives
 
