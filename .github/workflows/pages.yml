@@ -57,6 +57,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 22
           source: ./public/*
-          target: /root/app/blog
+          target: /root/app/blog/
           rm: true
 
