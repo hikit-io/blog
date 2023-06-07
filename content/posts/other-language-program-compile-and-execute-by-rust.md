@@ -1,7 +1,8 @@
 ---
 author: Nekilc
 title: Other language program compile and execute by rust
-date: 2023-05-16
+date: 2023-02-16
+tags: [rust]
 ---
 
 - Remote

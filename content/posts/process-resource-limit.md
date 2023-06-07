@@ -1,7 +1,8 @@
 ---
 author: Nekilc
 title: Process resource limit
-date: 2023-05-16
+date: 2023-02-16
+tags: [linux,systemcall]
 ---
 
 int setrlimit(int resource, const struct rlimit *rlp);

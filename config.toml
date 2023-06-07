@@ -2,9 +2,9 @@ baseURL = "https://blog.hikit.io/"
 languageCode = "en-us"
 title = "HiKit's Blog"
 theme = "ink-free"
-paginate = 5
+paginate = 10
 
-copyright = "© Copyright notice"
+copyright = "© HiKit"
 # Demo only
 #ignoreErrors = ["error-missing-instagram-accesstoken"]
 

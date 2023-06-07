@@ -1,7 +1,8 @@
 ---
 author: Nekilc
-title: Cookie
-date: 2023-05-16
+title: Cookies
+date: 2019-08-09
+tags: [cookie,http,backend]
 ---
 
 # Refrence

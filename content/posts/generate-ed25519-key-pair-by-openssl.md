@@ -1,7 +1,8 @@
 ---
 author: Nekilc
 title: Generate EdDSA/Ed25519 key-pair by OpenSSL
-date: 2023-05-16
+date: 2022-01-16
+tags: [openssl,crypto]
 ---
 
 ## Introduce

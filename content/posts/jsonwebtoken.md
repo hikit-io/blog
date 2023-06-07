@@ -1,7 +1,8 @@
 ---
 author: Nekilc
 title: JsonWebToken(JWT)
-date: 2023-05-16
+date: 2019-10-10
+tags: [http,web,backend]
 ---
 
 ## Introduce
