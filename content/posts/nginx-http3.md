@@ -1,7 +1,7 @@
 ---
 author: Nekilc
 title: Nginx enable HTTP/3 
-date: 2023-5-25
+date: 2023-05-25
 tags: [http,http3,backend,nginx]
 ---
 
