@@ -13,7 +13,7 @@
 				style="text-decoration: none;">
 				<span class="text-badge">HTTP/3</span>
 			</a>
-			<a class="badge" href="https://ipw.cn/ipv6webcheck/?site={{ .Site.BaseURL }}" title="本站支持IPv6访问" target='_blank'
+			<a class="badge" href='https://ipw.cn/ipv6webcheck/?site={{ strings.TrimSuffix "/" .Site.BaseURL }}' title="本站支持IPv6访问" target='_blank'
 				style="text-decoration: none;">
 				<span class="text-badge">IPv6</span>
 			</a>
