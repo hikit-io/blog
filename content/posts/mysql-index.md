@@ -1,6 +1,10 @@
 ---
 author: Nekilc
-title: JsonWebToken(JWT)
+title: MySQL存储引擎和索引
 date: 2019-10-10
-tags: [http,web,backend]
+tags: [mysql,backend,database]
 ---
+
+## 数据库中的索引存储模型
+
+###  
