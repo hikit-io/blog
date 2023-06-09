@@ -9,7 +9,7 @@ tags: [mysql,backend,database]
 ## 连接器
 
 - 不要频繁建立连接，使用长连接
-- 大量长连接导致内存增长，定时关闭连接，在MySQL5.7可以通过`mysql_reset_connection`重置连接。
+- 大量长连接导致内存增长，定时关闭连接，在MySQL5.7及后续版本可以通过`mysql_reset_connection`重置连接。
 
 ## 查询缓存
 
